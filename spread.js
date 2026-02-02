@@ -9,4 +9,5 @@ const findMax = Math.max(...allNumbers); // this will show max number, max numbe
 const arraryOne = [1, 2, 3, 4, 5];
 const arrayTwo = [...arraryOne];
 arrayTwo.push(6)
-console.log(arrayTwo);
+console.log(arraryOne);
+
