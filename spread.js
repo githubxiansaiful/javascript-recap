@@ -11,3 +11,6 @@ const arrayTwo = [...arraryOne];
 arrayTwo.push(6)
 console.log(arraryOne);
 
+const nayikas=['mousumi' , 'popy' ,'shabnur', 'purnima' ]
+const newNaikas = [...nayikas];
+newNaikas.push('sabana');

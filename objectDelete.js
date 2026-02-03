@@ -6,3 +6,13 @@ const employee = {
 }
 delete employee.name;
 console.log(employee);
+
+
+const mobile = {
+    brand: 'Samsung',
+    model: 'S4'
+};
+
+delete mobile.model;
+console.log(mobile);
+

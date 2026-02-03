@@ -21,16 +21,25 @@ const result2 = sum(13, 17);
 // multi line arrow function
 const name = (firstName, lastName = "") => {
     const fullName = firstName + lastName;
-    console.log(fullName);
+    // console.log(fullName);
 
 }
 name("Abu", "Kabu");
 
 // anonymous function
-document.getElementById('').addEventListener('click', () => {
+// document.getElementById('').addEventListener('click', () => {
 
-});
+// });
 
-document.getElementById('btn-click').addEventListener('click', () => {
+// document.getElementById('btn-click').addEventListener('click', () => {
 
-});
+// });
+
+const myFunction = () => {
+    // console.log("my function called");
+    return true;
+}
+myFunction();
+
+// single parameter arrow function
+const myFunc = () => console.log("single parameter function");
