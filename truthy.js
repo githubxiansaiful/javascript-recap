@@ -21,3 +21,7 @@ if (!data) {
 else {
     console.log(typeof data, "logical not");
 }
+
+// Capture all positive value
+// double not !!
+
