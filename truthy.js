@@ -10,4 +10,14 @@ data = 1; // Truthy
 data = "Hello"; // Truthy
 data = []; // Truthy
 data = {}; // Truthy
-data = function() {}; // Truthy
+data = function () { }; // Truthy
+data = "Hello World";
+
+// If I need to capture the falsy value to go inside of block
+// use logical not
+if (!data) {
+    console.log("Something is Wrong", data); 
+}
+else {
+    console.log(typeof data, "logical not");
+}
