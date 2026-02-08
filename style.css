@@ -1,0 +1,146 @@
+body .qodef-header-sticky-inner img,
+body .qodef-header-logo-link img {
+    max-width: 200px !important;
+}
+
+body.qodef--passepartout {
+    padding: unset !important;
+}
+
+@media all and (max-width: 880px) {
+    div#qodef-page-footer-bottom-area-inner {
+        margin-top: 40px !important;
+    }
+}
+
+#qodef-footer-logo-holder img {
+    max-width: 100px;
+    position: relative;
+    top: 38px;
+}
+
+body.home #qodef-footer-logo-holder img {
+    top: 20px;
+}
+
+.qodef-restaurant-menu-list .qodef-e-price:before {
+    content: "$";
+}
+
+.qodef-restaurant-menu-list .qodef-e.qodef-grid-item {
+    position: relative;
+}
+
+.qodef-restaurant-menu-list .qodef-e.qodef-grid-item:before {
+    content: "";
+    height: 1px;
+    width: 100%;
+    position: absolute;
+    background: #ffffff24;
+    top: 22px;
+}
+
+.qodef-e-heading .qodef-e-title {
+    background: #15293A !important;
+    z-index: 9;
+    position: relative;
+    padding-right: 5px;
+}
+
+.qodef-e-heading .qodef-e-price {
+    background: #15293A !important;
+    z-index: 9;
+    position: relative;
+    padding-left: 5px;
+}
+
+@media all and (max-width: 680px) {
+    .qodef-restaurant-menu-list .qodef-e.qodef-grid-item:before {
+        top: 10px
+    }
+}
+
+.qodef-restaurant-menu-list.qodef-item-layout--side-by-side .qodef-e-description {
+    width: 90% !important;
+}
+
+body.qodef-header--standard #qodef-page-header .qodef-header-logo-link {
+    padding-top: 0 !important;
+}
+
+.qodef-mobile-header-navigation,
+.qodef-e-heading .qodef-e-price,
+.qodef-e-heading .qodef-e-title,
+div#qodef-page-footer-bottom-area-inner,
+#qodef-page-footer-bottom-area #qodef-footer-logo-holder,
+body #qodef-page-footer-bottom-area {
+    background: #000000 !important;
+}
+
+.catering-package-menu ul {
+    display: grid;
+    gap: 15px;
+    list-style: none;
+    padding: 0;
+}
+
+.catering-package-menu ul span {
+    font-weight: bold;
+    font-size: 18px;
+    display: block;
+}
+
+@media all and (max-width: 680px) {
+    .xs-menu-title .qodef-m-title {
+        font-size: 20px;
+    }
+}
+
+div#fidalgo_core_button-3 {
+    display: none !important;
+}
+
+.xs-custom-party-tray-menu ul {
+    display: grid;
+    gap: 15px;
+    list-style: none;
+    padding: 0;
+}
+
+.xs-custom-party-tray-menu ul li {
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    font-size: 18px;
+}
+
+.xs-custom-party-tray-menu ul li:before {
+    content: "";
+    position: absolute;
+    height: 1px;
+    width: 100%;
+    background: #ffffff24;
+    left: 0;
+    top: 15px;
+}
+
+.xs-custom-party-tray-menu ul li span {
+    background: #000;
+    z-index: 999;
+}
+
+.xs-custom-party-tray-menu ul li span:first-child {
+    padding-right: 5px;
+    display: block;
+}
+
+.xs-custom-party-tray-menu ul li span:last-child {
+    padding-left: 5px;
+    display: block;
+    position: relative;
+}
+
+.xs-custom-party-tray-menu ul li span:last-child:before {
+    content: "$";
+    padding-right: 2px;
+}
