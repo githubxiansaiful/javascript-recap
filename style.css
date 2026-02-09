@@ -2,9 +2,14 @@ body {
     font-weight: 400;
 }
 
+/* Header */
+#main-header .container {
+    width: 90%;
+}
+
 /* Custom Button */
 .xs-custom-button .xs-custom-button-inner {
-    color: #414941;
+    color: #161616;
     position: relative;
     display: block;
     overflow: hidden;
@@ -57,6 +62,20 @@ body {
     transition: .3s ease-in-out;
 }
 
+.xs-custom-button-inner:hover:after {
+    animation: rotate 4s linear infinite;
+}
+
+@keyframes rotate {
+    from {
+        transform: rotate(0deg);
+    }
+
+    to {
+        transform: rotate(360deg);
+    }
+}
+
 .xs-custom-button .xs-custom-button-inner:hover:after {
     filter: invert(1);
 }
@@ -65,6 +84,22 @@ body {
 .xs-custom-button-white .xs-custom-button-inner {
     color: #fff;
     border: 1px solid currentColor;
+}
+
+.xs-custom-button-white .xs-custom-button-inner:hover {
+    color: #161616;
+}
+
+.xs-custom-button-white .xs-custom-button-inner:hover span {
+    background-color: #fff;
+}
+
+.xs-custom-button-white .xs-custom-button-inner:hover:after {
+    filter: invert(0) !important;
+}
+
+.xs-custom-button-white.xs-custom-button .xs-custom-button-inner:after {
+    filter: invert(1);
 }
 
 /* Custom Heading Title */
